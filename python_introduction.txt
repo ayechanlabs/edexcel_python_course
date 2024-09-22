@@ -1,0 +1,61 @@
+What is Python?
+Python is an
+- interpreted, (it will translate the code line by line)
+- object-oriented, (it will treat every programs as a object)
+- high-level programming language with (it uses english language to write the code and it has pre-built libraries)
+- dynamic semantics (it changes the memory space and data types based on the given value/input value)
+- case-sensitive (it is sensitive to uppercase and lowercase)
+
+What is Syntax?
+Syntax refers to the set of rules that define the structure of statements or expressions.
+Just as grammar dictates how words and phrases are structured in natural languages,
+syntax rules dictate how symbols, keywords, and constructs should be arranged to
+create valid code in a programming language.
+
+Example:
+- Python
+create a variable: num / name
+name = "Kyaw Kyaw" <- correct
+"Kyaw Kyaw" name = <- incorrect
+"Kyaw Kyaw" = name <- incorrect
+
+- Java
+create a variable: int num / string name
+
+- English
+create a sentence:
+Mg Mg is hitting Kyaw Kyaw. <- correct
+Mg Mg Kyaw Kyaw is hitting <- incorrect
+
+What is Semantics?
+Semantics refers to the meaning or behavior of code — the 'what the code does',
+rather than the how it's written. While syntax focuses on the structure and
+format of the code, semantics is concerned with how the code executes and
+what effect it has on the program’s state.
+
+Example:
+- Python
+name = "Alex" => assign 'Alex' value to a 'name' variable
+
+- English
+My name is Aung Aung. => ကျွန်တော် နာမည် အောင်အောင် ဖြစ်ပါသည်။
+
+What is Pragmatic?
+Pragmatics refers to the practical aspects of programming and software development
+that go beyond the formal rules of syntax and semantics. Pragmatics is concerned
+with the real-world application of code and how developers effectively use programming
+languages, tools, and practices to achieve their goals.
+It deals with the how and why of programming in a practical sense.
+
+Note - Python language is created using C Language and Java Language. Most of the 
+python codes are created using C Language.
+
+How does Python codes works?
+as you know, python codes executed line by line. So how does it converted to the 
+machine code?
+To convert Python code to Machine code, it has convert to C Language and then 
+it is converted into machine codes which are executed on the machine level.
+
+Python Comment -
+- single line comment -> #
+- multi-line comment -> """ """ (doc-string)
