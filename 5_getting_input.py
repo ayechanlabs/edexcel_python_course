@@ -10,7 +10,10 @@ printing messages, receiving input and so on.
 
 In order to get input from user, we'll use 'input()' function to get
 input from user.
+We can also check the data type of a variable based on the value inside
+a variable.
 """
 
 name = input("What is your name? ")
 print('Hello ' + name)
+print(type(name)) # string
