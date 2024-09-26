@@ -8,14 +8,16 @@ Is he new here: True
 """
 
 name = 'John Smith'
-age = '20' # change 20 to '20'
-is_new = 'True' # change True to 'True'
+age = 20 # change 20 to '20'
+is_new = True # change True to 'True'
 
-print("Hello, this is", name, ". He is", age, "years old.")
-print("Is he new here:", is_new)
+# print("Hello, this is", name, ". He is", age, "years old.")
+# print("Is he new here:", is_new)
 
-print("Hello, this is " + name + ". He is " + age + " years old.")
-print("Is he new here: " + is_new)
+# print("Hello, this is " + name + ". He is " + age + " years old.")
+# print("Is he new here: " + is_new)
+
+print("This is", name + ". His age is", age + ". His covid sign:", is_new)
 
 """
 In this exercise, we will learn about different types of string concatenation.
