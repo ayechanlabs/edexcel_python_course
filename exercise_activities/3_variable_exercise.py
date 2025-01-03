@@ -11,6 +11,10 @@ name = 'John Smith'
 age = 20 # change 20 to '20'
 is_new = True # change True to 'True'
 
+print(5 + 4) # addition
+
+print('5' + '4') # concatenation
+
 # print("Hello, this is", name, ". He is", age, "years old.")
 # print("Is he new here:", is_new)
 

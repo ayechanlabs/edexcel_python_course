@@ -16,3 +16,7 @@ print(x)  # 13 this is how we increment the value inside a variable.
 # 'Augmented Operator' is a way to writing the same code but in shorter form.
 x += 3
 print(x)
+
+name = "John"
+name += "Smith"
+print(name)

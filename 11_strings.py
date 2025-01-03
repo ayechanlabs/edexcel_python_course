@@ -6,6 +6,15 @@ and double quotes to define a string.
 What is a string?
 String is a collection of characters.
 """
+stud1 = "William"
+stud2 = 'Susan'
+print(f"{stud1}: type {type(stud1)}")
+print(f"{stud2}: type {type(stud2)}")
+
+char = 'A'
+char2 = 'B'
+print(f"{char}: type {type(char)}")
+print(f"{char2}: type {type(char2)}")
 
 mesg = 'Python for Beginners'
 print(mesg)
@@ -17,8 +26,15 @@ print(mesg)
 msg = "Python's Course of Begineers"
 print(msg)
 
+mesg = "Python's Course for 'Begineers'"
+print(mesg)
+
 msg2 = 'Python for "Beginners"'
 print(msg2)
+
+# message = "Hello, This is John, Everyone. \
+# Say 'Hi' to him."
+# print(message)
 
 """
 But there are times you have to use a specific form.
@@ -27,6 +43,8 @@ we want to write or make a string of multiple lengths.
 Like a message that we use it to send in email, then we can use triple
 quotes.
 """
+
+# long string/ doc-string
 long_msg = '''Hi John,
 Here is our first long message.
 I hope it is working.
@@ -34,10 +52,10 @@ I hope it is working.
 print(long_msg)
 
 long_msg2 = """
-Hi Alex,
-Here is our first email to you.
-Thank you,
-The support team
+                Hi Alex,
+                Here is our first email to you.
+                Thank you,
+                The support team
 """
 print(long_msg2)
 

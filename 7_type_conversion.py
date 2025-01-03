@@ -7,9 +7,12 @@ In programming, there are 2 types of type conversion-
 - explicit casting: the data type has to changed manually.
 """
 
-# implicit casting
-a = 5
-b = 4.6
+# IMPLICIT CASTING
+a = 5 # int
+b = 4.6 # float
+
+print(type(a))
+print(type(b))
 
 # in here, we add 2 different data type
 # a which holds a integer value
@@ -17,13 +20,27 @@ b = 4.6
 # but the result is in float
 c = a + b # float = int + float: we called this as implicit casting: memory[float] > [int]
 print(c) # 9.6
+print(type(c))
 
-# explicit casting
-birthYear = input('Enter Birth Year: ')
-print(type(birthYear)) # string
+# EXPLICIT CASTING
+firstNum = input("Enter 1st Number: ")
+secondNum = input("Enter 2nd Number: ")
 
-age = 2024 - int(birthYear) # convert string to integer
-print('Your age is', age)
+# before type conversion
+print("Original Data Type")
+print(type(firstNum))
+print(type(secondNum))
+
+# after type conversion
+firstNum = int(firstNum) # explicit
+secondNum = int(secondNum) # explicit
+print("After Data Conversion")
+print(type(firstNum))
+print(type(secondNum))
+
+total = firstNum + secondNum # total = int(firstNum) + int(secondNum)
+# print('Total', total)
+print("Total: " + str(total))
 
 """
 When we use input(), we will be asking the user to input the data.
